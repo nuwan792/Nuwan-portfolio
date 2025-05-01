@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuwan Perera | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Nuwan Perera</span></h1>
+                    <h2>Software Developer / Designer / Information security analyst</h2>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        
+                        <a href="https://drive.google.com/file/d/1oZ9UlhXlMhj_3bGsV53vP96amAinMrhy/view?usp=sharing" 
+   download="Nuwan_Perera_CV.pdf" 
+   class="btn btn-secondary">
+   Download CV
+</a>
+                    </div>
+                </div>
+                <div class="hero-decoration">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span>Scroll down</span>
+                <div class="arrow"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="profile-container">
+                    <img src="Nuwan Perera.jpeg" alt="Nuwan's Image" class="profile-img">
+                    <div class="profile-border"></div>
+                </div>
+                <div class="about-text">
+                    <p>As a highly motivated professional, I am driven by an insatiable desire for continuous growth and learning. My unwavering commitment to ethical conduct and unwavering integrity forms the bedrock of my professional approach. I thrive in collaborative environments, where I can leverage my strong interpersonal and communication skills to foster teamwork and achieve outstanding results.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Professional</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Innovative</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <span>Collaborative</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="project-grid">
+                <!-- Project cards will be added here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-container">
+                <!-- Skills will be added here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>your.email@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+123 456 7890</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Nuwan Perera. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
